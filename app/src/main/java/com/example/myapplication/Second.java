@@ -7,5 +7,6 @@ import androidx.appcompat.app.AppCompatActivity;
 public class Second extends AppCompatActivity {
     public void onCreate(Bundle saveInstanceState){
         super.onCreate(saveInstanceState);
+        setContentView(R.layout.activity_second);
     }
 }
